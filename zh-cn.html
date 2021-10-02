@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Minecraft 1.2.3_06</title>
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled2.css" rel="stylesheet">
+<link href="zh-cn.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="util.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#ThemeableMenu1 .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.ThemeableMenu1-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Image2" style="position:absolute;left:407px;top:28px;width:485px;height:74px;z-index:0;">
+<img src="images/图片1.png" id="Image2" alt=""></div>
+<div id="wb_Text1" style="position:absolute;left:299px;top:119px;width:701px;height:143px;text-align:center;z-index:1;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><strong>Alpha 1.2.3_ 06 </strong></span><span style="color:#FFFFFF;font-family:微软雅黑;font-size:24px;"><strong> </strong></span><span style="color:#FFFFFF;font-family:Calibri;font-size:24px;"><strong>M</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><strong>inecraft technology test</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><strong><br><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:17px;">Minecraft Alpha 1.2.3_06</span><span style="color:#FFFFFF;font-family:微软雅黑;font-size:17px;">是一个基于Minecraft Alpha 1.2.3的特别版本。本质上，它是minecraft的内部技术测试，用于测试高级OpenGL和64位Java。它的游戏内容和alpha1.2.3_04相同，最后一个拷贝版本由于第一次使用了高级OpenGL，不能很好的适应所有的系统，所以我们把它交给了其他团队来调整它的适应性</span></div>
+<a href="https://www.nevergonnagiveyou.ml/"><img src="images/img0002.jpg" id="Banner1" alt="&#19979;&#36733;" style="border-width:0;position:absolute;left:571px;top:358px;width:157px;height:43px;z-index:2;"></a>
+<div id="wb_Text2" style="position:absolute;left:368px;top:272px;width:562px;height:74px;text-align:center;z-index:3;">
+<span style="color:#FFFFFF;font-family:微软雅黑;font-size:15px;">最后一次更新</span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;">: 2021/7/9 11:00 <br></span><span style="color:#FFFFFF;font-family:微软雅黑;font-size:15px;"><strong>提示：这个版本必须使用64位java运行<br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:微软雅黑;font-size:15px;">无法运行？不会运行？<a href="./doc.html">查看文档</a></span></div>
+<div id="wb_ThemeableMenu1" style="position:absolute;left:0px;top:0px;width:97px;height:38px;z-index:4;">
+<div id="ThemeableMenu1" class="ThemeableMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" >语言<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="./index.html" class="nav-link">English</a></li>
+<li class="nav-item"><a href="./ru.html" class="nav-link">русский язык </a></li>
+<li class="nav-item"><a href="./zh-cn.html" class="nav-link">中文</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
+</div>
+</body>
+</html>

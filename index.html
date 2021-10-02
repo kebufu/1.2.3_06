@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Minecraft 1.2.3_06</title>
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled2.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="util.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#ThemeableMenu1 .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.ThemeableMenu1-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Image2" style="position:absolute;left:407px;top:28px;width:485px;height:74px;z-index:0;">
+<img src="images/图片1.png" id="Image2" alt=""></div>
+<div id="wb_Text1" style="position:absolute;left:299px;top:127px;width:701px;height:148px;text-align:center;z-index:1;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><strong>Alpha 1.2.3_ 06 </strong></span><span style="color:#FFFFFF;font-family:微软雅黑;font-size:24px;"><strong> </strong></span><span style="color:#FFFFFF;font-family:Calibri;font-size:24px;"><strong>M</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><strong>inecraft technology test</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><strong><br><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:17px;">Minecraft Alpha 1.2.3_ 06 is a special release based on minecraft alpha 1.2.3. In essence, it is an internal technology test of minecraft, which is used to test advanced OpenGL and 64bit Java. Its game content is similar to alpha 1.2.3_ 04, the last copy version can't adapt to all systems well because of the first use of advanced OpenGL, so we have delivered it to other teams to adjust its adaptability</span></div>
+<div id="wb_ThemeableMenu1" style="position:absolute;left:0px;top:0px;width:97px;height:38px;z-index:2;">
+<div id="ThemeableMenu1" class="ThemeableMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" >language<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="./index.html" class="nav-link">English</a></li>
+<li class="nav-item"><a href="./ru.html" class="nav-link">русский язык </a></li>
+<li class="nav-item"><a href="./zh-cn.html" class="nav-link">中文</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div></div>
+<a href="https://www.nevergonnagiveyou.ml/"><img src="images/img0001.jpg" id="Banner1" alt="Download" style="border-width:0;position:absolute;left:571px;top:367px;width:157px;height:43px;z-index:3;"></a>
+<div id="wb_Text2" style="position:absolute;left:368px;top:284px;width:562px;height:66px;text-align:center;z-index:4;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:15px;">last update: 2021/7/9 11:00 <br><strong>Notice:This version of Minecraft require 64 bit of java for run.<br><br></strong>Can't run? Don't know how to run? <a href="./doc.html">View documents</a></span></div>
+</div>
+</body>
+</html>
